@@ -173,7 +173,7 @@ a:hover{
   line-height: 1.35vw;
   left: 30vw;
   position: absolute;
-  height: 49vw;
+  height: 48vw;
   font-family: "bookk";
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
@@ -290,4 +290,53 @@ display: none;
   height: auto;
   display: block;
 
+}
+
+@media (max-width: 1023px) {
+  .glossary { font-size: 1.4vw;
+  height: 57vw;
+  left: 25vw;
+  width: 50vw;
+line-height: 1.6vw;}
+#btnAcv{font-size: 1.6vw;}
+#gloText{
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+.timeline{
+  top: 48vh;
+}
+
+}
+@media (max-width: 767px) {
+  .glossary{ font-size: 1.8vw; 
+    left: 17.5vw;
+  width: 65vw;
+  height: 70vw;
+line-height: 2vw;}
+#btnAcv{font-size: 1.8vw;}
+#gloText{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.timeline{
+  top: 48.5vh;
+}
+}
+@media (max-width: 639px) {
+  .glossary { font-size: 2.7vw; 
+    left: 2.5vw;
+    width: 95vw;
+    height: 110vw;
+  line-height: 3vw;}
+  #gloText{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    top: 9vw;
+  }
+  #btnAcv{font-size: 2.7vw;}
+  .timeline{
+    top: 49.5vh;
+  }
+  
 }
