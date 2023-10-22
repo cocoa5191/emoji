@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "ABCDiatypeMonoVariableEdu";
+  src: url("../fonts/ABCDiatypeMonoVariableEdu.ttf");
+  font-variation-settings: "wght" 350, "slnt" 0, "SRFF" 1;
+}
+
+@font-face {
+  font-family: "ABCArizonaPlusVariable";
+  src: url("../fonts/ABCArizonaPlusVariable.ttf");
+  font-variation-settings: "srff" 100, "ital" 0, "wght" 70;
+}
+
+
+
+@font-face {
+  font-family: "bookk";
+  src: url("../fonts/bookk.ttf");
+}
+
+
+
+
+@font-face {
+  font-family: "social";
+  src: url("../fonts/ABCSocialEdu-Regular.otf");
+}
+
+
+
+html,
+body {
+  z-index: 1;
+  font-family: "ABCDiatypeMonoVariableEdu";
+  font-size: 2vw;
+  font-weight: normal;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+
+
+}
+
+a,
+button,
+input,
+label {
+  cursor: pointer;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.hidden{
+  display: none;
+}
+
+.hidden.open{
+  display: block;
+}
+
+img{
+  width: 100%;
+}
+
+
+
+
+.left,
+.right{
+  width: 100vw;
+  height: 46vh;
+  display: flex;
+  overflow: scroll;
+}
+
+.right{
+  bottom: 0;
+  top: 54vh;
+  background-color: white;
+  z-index: 50;
+  
+  position: fixed;
+}
+
+/* .left .pornhub,
+.left .relationship,
+.left .video{
+  position: absolute;
+  left: -15vw;
+  top: -15vw;
+  transition: all 1s linear;
+} */
+
+
+.pText,.dText{
+display: flex;
+}
+
+/* .left .relationship.open{
+  left: 25vw;
+  top: 15vw;
+}
+
+.left .video.open{
+  left: 35vw;
+  top: 19vw;
+} */
+
+
+
+
+
+
+.textbox{
+  background-color: white;
+  border-style: outset;
+  border-color: #e4e4e4 #6c6c6c #343434 #d6d6d6;
+  color: black;
+  padding: 2vw;
+  padding-top: 0;
+  font-size: 1.5vw;
+
+
+}
+
+
+
+
+/* a{
+  position: relative;
+  font-size: 3vw;
+  line-height: 3.5vw;
+  color: white;
+  left: 0vw;
+  text-decoration: none;
+  margin: 0;
+  font-family: "Tiltortion";
+  overflow-x: hidden; overflow-y: hidden; 
+  position: absolute; white-space: nowrap;will-change: transform;
+
+}
+
+a:hover{
+    position: absolute; white-space: nowrap;will-change: transform;
+
+  animation: marquee 7s linear infinite; 
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+} */
+.glossary{
+  background-color: white;
+  display: block;
+  z-index: 100;
+  padding: 2vw;
+  text-align: left;
+  font-size: 1.2vw;
+  color: black;
+  top:5vw;
+  border-radius: 50px;
+ margin: 0;
+  width: 40vw;
+  line-height: 1.35vw;
+  left: 30vw;
+  position: absolute;
+  height: auto;
+  font-family: "bookk";
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* .left{
+  left: 0;
+  float: right;
+  position: relative;
+} */
+
+
+#y20,#y21,#y22,#y23{
+  width: 25vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  position: relative;
+}
+
+
+#blur{
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+  position: absolute;
+  z-index: 90;
+  pointer-events: visible;
+}
+.hidden{
+display: none;
+}
+
+.h2{
+  font-size: 3vw;
+  font-variation-settings: "srff" 1, "slnt" -14, "wght" 250;
+}
+
+@keyframes position {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+
+  99% {
+    margin-top: -200px;
+    opacity: 1;
+    transform: rotateY(600deg);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.timeline{
+  text-align: center;
+  top:47vh;
+  position: absolute;
+  height: 4vw;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: inline-flex;
+  z-index: 10;
+}
+.year{
+  width: 25vw;
+  color: black;
+  font-size: 3vw;
+}
+
+
+.left:hover {
+  cursor: url('../img/check-emoji 45.png')22 22, auto; /* 호버 시 이미지로 커서 변경 */
+  
+}
+
+.right:hover {
+  cursor: url('../img/cross-emoji 45.png')22 22, auto; /* 호버 시 이미지로 커서 변경 */
+}
+
