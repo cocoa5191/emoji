@@ -200,6 +200,7 @@ a:hover{
   position: absolute;
   z-index: 90;
   pointer-events: visible;
+  cursor: pointer;
 }
 
 .hidden{
