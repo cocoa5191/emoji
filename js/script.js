@@ -84,9 +84,9 @@ const descriptionContainer = document.getElementById("description-container");
 const descriptionContainerEng = document.getElementById("description-containerE");
 const descriptions = [
   [
-    "혹은 누군가에게 적절하거나 적절하지 못한 제안으로 분류되는 정보를 전달하기 위해, ",
+    ", 혹은 누군가에게 적절하거나 적절하지 못한 제안으로 분류되는 정보를 전달하기 위해, ",
     "아니면 이 아카이브를 보고 자극받아 새로운 이모티콘 제안서를 제출할 누군가를 위해, ",
-    "또는 이모티콘을 열렬히 사랑하는 사람들을 위해 만들어졌습니다."
+    "또는 이모티콘을 열렬히 사랑하는 사람들을 위해 "
   ],
   [
     "to convey information about proposals that are deemed appropriate or inappropriate to someone, ",
@@ -133,6 +133,13 @@ console.log("hide");
   $blur.hide();
   $glossary.hide();
 });
+
+$('#blur').on('click', function() {
+  console.log("hide");
+    $blur.hide();
+    $glossary.hide();
+  });
+
 
 const left = $('.left');
 const right = $('.right');

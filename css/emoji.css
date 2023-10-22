@@ -163,17 +163,17 @@ a:hover{
   z-index: 100;
   padding: 2.3vw;
   text-align: left;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: black;
   top:0;
   bottom: 0;
-  border-radius: 50px;
+  border-radius: 49px;
  margin: auto;
   width: 40vw;
   line-height: 1.35vw;
   left: 30vw;
   position: absolute;
-  height: 51.5vw;
+  height: 49vw;
   font-family: "bookk";
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
@@ -255,20 +255,38 @@ display: none;
   cursor: url('../img/cross-emoji 45.png')22 22, auto; /* 호버 시 이미지로 커서 변경 */
 }
 
+#description-container{
 
-button{
+  margin: 0;
+  position: relative;
+  padding: 0;
+}
+
+#btnAcv{
   border: 0;
   background-color: transparent;
   font-family: "bookk";
   font-size: 1.2vw;
   position: relative;
   float: right;
+  font-style: italic;
+  transition: all 0.3s linear;
+
+}
+
+#btnAcv:hover {
+    transform: rotateX(360deg);
+   
 }
 
 #gloText{
-  position: relative;
-top: 0;
-bottom: 0;
-margin: auto;
-height: auto;
+  position: absolute;
+  top: 4vw;
+  padding: 0;
+  margin: 0;
+  left: 2vw;
+  right: 2vw;
+  height: auto;
+  display: block;
+
 }
