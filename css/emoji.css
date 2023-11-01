@@ -292,6 +292,8 @@ display: none;
 
 }
 
+
+
 @media (max-width: 1023px) {
   .glossary { font-size: 1.4vw;
   height: 57vw;
